@@ -314,7 +314,7 @@ nav {
 
 .card-link,
 .card-2,
-.card-3{
+.card-3 {
     width: auto;
     max-width: 100%;
     max-height: 100%;
@@ -325,6 +325,7 @@ nav {
     position: relative;
     overflow: hidden;
 }
+
 .card-project::before {
     content: '';
     position: absolute;
@@ -336,41 +337,48 @@ nav {
     background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
     transition: 0.5s ease;
 }
+
 .card-project:hover::before {
     width: 100%;
     height: 100%;
     background: linear-gradient(329.39deg, #11133d -10.96%, rgba(21, 23, 85, 0.42) 103.96%);
 }
 
-.card-text{
+.card-text {
     position: absolute;
     top: 55%;
     left: 6%
 }
-.card-title{
+
+.card-title {
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 600;
 }
-.card-desk{
+
+.card-desk {
     margin-top: 2em;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
-.card-y{
+
+.card-y {
     margin-top: 4em;
 }
-.card-arrow{
+
+.card-arrow {
     color: #FCD980;
     font-size: 16px;
     font-weight: 400;
 }
-.card-2{
+
+.card-2 {
     position: relative;
 }
-.card-2::before{
+
+.card-2::before {
     content: '';
     position: absolute;
     top: 0;
@@ -380,5 +388,87 @@ nav {
     background: linear-gradient(329.39deg, #11133d -10.96%, rgba(21, 23, 85, 0.42) 103.96%);
 }
 
+.card-text2 {
+    position: absolute;
+    top: 8em;
+    left: 4em;
+    line-height: 36px;
+}
+
+.card-title2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-y2 {
+    padding-top: 10px;
+}
+
+
 
 /*our-project end*/
+
+/*main start*/
+
+.main{
+    background-color: #F4F6FC;
+    margin-top: 15em;
+}
+
+.main-title{
+    padding-top: 13em;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.logo-main{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.title-main{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.blocks-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.5rem;
+    place-items: center;
+    gap: 3em;
+}
+
+.block{
+    width: 35em;
+    height: 30em;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.block-img{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.block-title{
+    color: #282938;
+    font-size:  27px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-bottom: 12px;
+}
+.block-text{
+    color: #282938;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    padding-left: 50px;
+}
+/*main end*/
