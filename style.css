@@ -411,36 +411,36 @@ nav {
 
 /*main start*/
 
-.main{
+.main {
     background-color: #F4F6FC;
     margin-top: 15em;
     padding-bottom: 12em;
     padding-left: 8em;
     padding-right: 8em;
-    
+
 }
 
-.main-title{
+.main-title {
     padding-top: 13em;
     text-align: center;
     padding-bottom: 5em;
 }
 
-.logo-main{
+.logo-main {
     color: #282938;
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 12px;
 }
 
-.title-main{
+.title-main {
     color: #282938;
     font-size: 5em;
     font-weight: 600;
     line-height: 64px;
 }
 
-.blocks-main{
+.blocks-main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0.5rem;
@@ -448,7 +448,7 @@ nav {
     gap: 3em;
 }
 
-.block{
+.block {
     max-width: 35em;
     max-height: 30em;
     width: 35em;
@@ -457,78 +457,147 @@ nav {
     align-items: center;
 }
 
-.block-img{
+.block-img {
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 25px;
 }
-.block-svg{
+
+.block-svg {
     height: 4em;
     width: 4em;
     z-index: 99;
 }
-.block-title{
+
+.block-title {
     color: #282938;
-    font-size:  27px;
+    font-size: 27px;
     font-weight: 500;
     padding-left: 50px;
     padding-bottom: 12px;
 }
-.block-text{
+
+.block-text {
     color: #282938;
     font-size: 20px;
     font-weight: 400;
     line-height: 33px;
     padding-left: 50px;
 }
+
 /*main end*/
 
 /*about_us start*/
 
-.about_us{
+.about_us {
+    background-color: #F4F6FC;
     display: flex;
     justify-content: space-around;
-    margin-top: 12em;
+    padding-top: 12em;
+    padding-bottom: 10em;
 }
-.about-person{
+
+.about-person {
     display: flex;
 }
-.about-title{
+
+.about-title {
     font-size: 38px;
     font-weight: 600;
     line-height: 56px;
     color: #282938;
     padding-bottom: 0.6em;
 }
-.about_under_title{
+
+.about_under_title {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     color: #282938;
 }
-.about_desk{
+
+.about_desk {
     font-size: 32px;
     font-weight: 500;
     line-height: 48px;
     color: #282938;
     padding-bottom: 0.4em;
 }
-.about_name{
+
+.about_name {
     display: flex;
     align-items: center;
     text-align: center;
 }
-.person{
+
+.person {
     font-size: 18px;
     font-weight: 500;
     line-height: 20px;
     color: #282938;
     position: relative;
     padding-left: 1em;
+    padding-right: 25em;
 }
-.person_span{
+
+.person_span {
     font-size: 12px;
 }
 
+.person_btn-left,
+.person_btn-right {
+    height: 4em;
+    width: 4em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+
+.person_btn-left {
+    margin-right: 2em;
+}
+
+.btn-left,
+.btn-right {
+    margin-top: 5px;
+    border: solid #282938;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    transition: 0.8s;
+    width: 30%;
+    height: 30%;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    border-color: #fff;
+}
+
+.btn-left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.btn-right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.person_btn-left:hover {
+    background-color: #5239fa;
+}
+
+.person_btn-right:hover {
+    background-color: #5239fa;
+}
+
+.person_btn-left:hover .btn-left {
+    border-color: #fff;
+}
+
+.person_btn-right:hover .btn-right {
+    border-color: #fff;
+}
 
 /*about_us end*/
