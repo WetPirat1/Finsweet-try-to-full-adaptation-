@@ -490,7 +490,7 @@ nav {
 /*about_us start*/
 
 .about_us {
-    background-color: #F4F6FC;
+    background-color: #f4f6fc5d;
     display: flex;
     justify-content: space-around;
     padding-top: 12em;
@@ -601,3 +601,97 @@ nav {
 }
 
 /*about_us end*/
+
+/*questions start*/
+
+.questions {
+    margin-top: 128px;
+    display: flex;
+}
+
+.titBtn-quest {
+    padding-left: 26vh;
+}
+
+.title-quest {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+
+.questBtn-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+}
+
+.questions-block {
+    padding-left: 23vh;
+}
+
+.button-quest {
+    background-color: #fff;
+}
+
+.quest-num {
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-right: 6vh;
+}
+
+.block-quest {
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    transition: 0.4s;
+    outline: none;
+}
+
+.block-quest:hover{
+    cursor: pointer;
+}
+
+.block-answer {
+    margin-left: 9.2vh;
+    margin-top: 1.6vh;
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.quest-icon {
+    margin-left: 36vh;
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.quest-icon:before,
+.quest-icon:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 2px;
+    background-color: #282938ab;
+    transform: translate(-50%, -50%);
+}
+
+.quest-icon::before {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.quest-icon::after {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
